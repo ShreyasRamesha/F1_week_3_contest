@@ -12,7 +12,6 @@
     color: white;
     width: 100%;
     height: 75px;
-    box-shadow: rgba(36, 36, 232, 0.933) 0px 50px 100px -20px, rgba(245, 237, 237, 0.933) 0px 30px 60px -30px, rgba(31, 132, 233, 0.829) 0px -2px 6px 0px inset;
     padding: 0px 40px;
     position: fixed;
     z-index: 999;
@@ -75,7 +74,7 @@
 }
 .hcontant h1{
     font-size: xxx-large;
-    line-height: 55px;
+    line-height: 70px;
 }
 .ABOUT-US{
     position: relative;
@@ -93,7 +92,8 @@
     padding: 0px 514px;
 }
 .hd h2{
-    padding: 14px 190px;
+    padding: 10px 190px;
+    font-size: xx-large;
 }
 .about-content{
     width: 50%;
@@ -106,4 +106,58 @@
 .dimg img{
     height: 400px;
     width: 80%;
+}
+.MENU{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+.mhd img{
+    padding: 0px 514px;
+}
+.mhd h2{
+    padding: 10px 701px;
+    font-size: xx-large;
+}
+.m1{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.FIND-US{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+.fhd img{
+    padding: 0px 514px;
+}
+.fhd h2{
+    padding: 10px 701px;
+    font-size: xx-large;
+}
+.inf{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    padding: 20px;
+}
+.fotbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 150px;
+    padding: 0px 40px;
 }
